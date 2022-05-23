@@ -4,4 +4,25 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: splash
 author_profile: false
+permalink: /
+hidden: true
+header:
+  overlay_color: "#292929"
+  actions:
+    - label: "Learn More About SD2E"
+      url: "about.md/"
+excerpt: "A web-based analysis platform for collaborative analysis, data sharing, and application development."
+intro: 
+  - excerpt: 'SD2E enables high-throughput collaborative science, and is backed by national-scale computing, analytics, and storage capacity at the Texas Advanced Computing Center (TACC). SD2E serves multiple DARPA programs including the SD2 program.'
+feature_row:
+  - image_path: assets/images/internet_figure.jpeg
+    title: "Placeholder 1"
+    excerpt: "This is to test the home layout."
+  - image_path: /assets/images/internet_figure.jpg
+    title: "Placeholder 2"
+    excerpt: "This is to test the home layout."
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
