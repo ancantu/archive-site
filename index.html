@@ -2,6 +2,18 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+author_profile: false
+permalink: /
+hidden: true
+header:
+  overlay_color: "#292929"
+  actions:
+    - label: "Learn More About SD2E"
+      url: "about/"
+excerpt: "A web-based analysis platform for collaborative analysis, data sharing, and application development."
+intro: 
+  - excerpt: 'SD2E enables high-throughput collaborative science, and is backed by national-scale computing, analytics, and storage capacity at the Texas Advanced Computing Center (TACC). SD2E serves multiple DARPA programs including the SD2 program.'
 ---
+
+{% include feature_row id="intro" type="center" %}
